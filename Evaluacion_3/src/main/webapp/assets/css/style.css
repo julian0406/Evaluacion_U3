@@ -1,0 +1,17 @@
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 1.5rem;  /* Ajusta el tamaño de la fuente */
+    height: auto;       /* Anula la altura predeterminada */
+    padding: 10px;      /* Añade un poco de padding */
+}
+
+input[type="submit"] {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+}
